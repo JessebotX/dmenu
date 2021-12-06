@@ -35,6 +35,10 @@ static unsigned int min_lineheight = 8;
  */
 static const char worddelimiters[] = " ";
 
+
+/* -n option; preselected item starting from 0 */
+static unsigned int preselected = 0;
+
 /*
  * Xresources preferences to load at startup
  */
